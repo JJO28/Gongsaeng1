@@ -49,7 +49,7 @@ import kr.co.gongsaeng.vo.ReviewVO;
 import lombok.Getter;
 import retrofit2.http.POST;
 
-@Controller
+@Controller 
 public class AdminController {
 	
 	private static final Logger log = LoggerFactory.getLogger(HomeController.class);
