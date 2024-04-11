@@ -65,7 +65,7 @@ import kr.co.gongsaeng.vo.ViewReportDetailByCompanyVO;
 
 @Controller
 public class CompanyController { 
-	// company     
+	// company      
 	
 	@Autowired
 	private CompanyService companyService;
