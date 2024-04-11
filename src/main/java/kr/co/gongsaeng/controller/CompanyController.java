@@ -64,7 +64,8 @@ import kr.co.gongsaeng.vo.ReportVO;
 import kr.co.gongsaeng.vo.ViewReportDetailByCompanyVO;
 
 @Controller
-public class CompanyController {
+public class CompanyController { 
+	// company
 	
 	@Autowired
 	private CompanyService companyService;
@@ -72,7 +73,7 @@ public class CompanyController {
 	@Autowired
 	private ClassService classService;
 
-	// [ 사업체 메인 페이지 ] 
+	// [ 사업체 메인 페이지 - 메인] 
 	@GetMapping("company/main")
 	public String company_main(Model model, HttpSession session, PaymentVO payment, ReportVO report) {
 		
